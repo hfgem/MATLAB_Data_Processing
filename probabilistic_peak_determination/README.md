@@ -20,4 +20,4 @@ For each cell, the probabilistic preferred response to a presented value (hencef
 * For a peak to occur, in a 3-value example, it is desired that the range of response to B is significantly greater than the responses to A and C, in other words
 P(y<sub>B</sub> >y<sub>A</sub>, y<sub>B</sub> >y<sub>C</sub>) ≥ α where α is a cutoff probability.
 * By assuming independence, the test becomes P(y<sub>B</sub> > y<sub>A</sub>)∗P(y<sub>B</sub> >y<sub>C</sub>) ≥ α.
-* In assessing end-point values (such as ’A’ and ’C’ in the 3-value example), one can assume circularity and test on one side with the opposite endpoint, and on the other with the neighboring value as follows: P(y<sub>A</sub> >y<sub>C</sub>)∗P(y<sub>A</sub> >y<sub>B</sub>)≥α and P(y<sub>C</sub> >y<sub>B</sub>)∗P(y<sub>C >y<sub>A</sub>)≥α. 
+* In assessing end-point values (such as ’A’ and ’C’ in the 3-value example), one can assume circularity and test on one side with the opposite endpoint, and on the other with the neighboring value as follows: P(y<sub>A</sub> >y<sub>C</sub>)∗P(y<sub>A</sub> >y<sub>B</sub>)≥α and P(y<sub>C</sub> >y<sub>B</sub>)∗P(y<sub>C</sub> >y<sub>A</sub>)≥α. 
