@@ -16,13 +16,11 @@ This program determines the curvature at each point of a curve using an approxim
 
 The curvature, **C**, at a point on a differentiable curve, is defined as the reciprocal of the radius (**R**) of the circle that best approximates the curve at that point, known as the osculating circle.
 
-![equations](https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/curvature.png)
-
-<img src="https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/curvature.png" width="50" height="50">
+<img src="https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/curvature.png" width="100" height="100">
 
 Meaning, if we were to draw a circle next to the curve, and expanded it so that it perfectly matched the contour of the curve about the point in question, the reciprocal of the radius of that circle would give us our curvature.
 
-![equations](https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/osculating_circle.png)
+<img src="https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/osculating_circle.png" width="200" height="200">
 
 (This image was borrowed from the [Wikipedia page on curvature](https://en.wikipedia.org/wiki/Curvature).)
 In order to calculate this value, we will approximate the center of the circle by taking two points on our curve, on either side of each point in question, finding the tangent at those points, and determining where orthogonal lines to their tangents intersect. From here, we can approximate the radius of the circle that best describes the curve as the average distance to the point in question and the adjacent points.
