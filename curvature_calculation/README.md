@@ -16,7 +16,7 @@ This program determines the curvature at each point of a curve using an approxim
 
 The curvature, **C**, at a point on a differentiable curve, is defined as the reciprocal of the radius (**R**) of the circle that best approximates the curve at that point, known as the osculating circle.
 
-![equations](https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/curvature.png)
+![equations](https://github.com/hfgem/MATLAB_Data_Processing/blob/master/curvature_calculation/equations/curvature.png | width=25)
 
 Meaning, if we were to draw a circle next to the curve, and expanded it so that it perfectly matched the contour of the curve about the point in question, the reciprocal of the radius of that circle would give us our curvature.
 
